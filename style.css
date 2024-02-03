@@ -1,0 +1,338 @@
+body {  
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+    font-family: 'Raleway', sans-serif;
+    /* font-family: 'Lato', sans-serif; */
+}
+
+h1 {    
+    font-family: 'Caveat', cursive;
+    font-weight: 700; 
+    font-size: 23px;
+    letter-spacing: .6mm;
+    color: antiquewhite;
+    line-height: .9;
+    text-shadow: 1px 3px 1px rgba(0, 0, 0, 0.7);
+    opacity: .3;
+}
+
+h2{ 
+    color: #1b4c7a;
+    /* font-weight: 900; */
+    font-style: normal;
+    letter-spacing: .5mm;
+    opacity: .9;
+}
+
+p {     
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: .2mm;
+    margin: 6px;
+    border: 0;
+}
+
+/* TOP NAV BAR ----- */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw ;
+    z-index: 5;
+}
+.top-container {  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 122px; 
+    background-color: rgb(27, 76, 122);
+    box-shadow: 2px 3px 9px rgba(30, 22, 7, 0.4);
+}
+/* LOGO CONTAINER */
+.logo-box { 
+
+    align-self: center;
+    padding-left: 40px;
+    padding-top: 8px;
+}
+
+.logo-img {  
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    box-shadow: 2px 3px 8px rgba(198, 16, 167, 0.3);
+    opacity: .7;
+
+}
+
+.logo-words { 
+    align-self: center ; 
+    padding-left:6px;
+    margin-top: 0px;
+    margin-right: auto;
+    width: 90px;
+    box-shadow: rgba(109, 135, 144, 0.3);
+}
+
+/* NAVIGATION CONTAINER */
+.nav-box {  
+    align-self: center;
+    padding-right: 20px;
+}
+
+ul {  
+    display: flex;  
+    list-style-type: none;
+    gap: 20px;
+    text-align: center;
+}
+
+a {  
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+    text-shadow: 3px 4px 2px rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+    color: antiquewhite;
+    letter-spacing: .4mm;
+    opacity: .6;
+}
+
+/* NAV CIRCLE STYLING */
+.color {    
+    background-color: rgb(214, 70, 134);
+    /* box-shadow: 5px 3px 9px #0f2e49; */
+    border-radius: 50%;
+    opacity: 1;
+
+    filter: drop-shadow(4px 4px 4px rgb(55, 31, 47));
+    box-shadow: 10px 10px 9px rgba(110, 19, 66, 0.1) inset,
+    15px 25px 10px rgba(195, 36, 137, 0.04),
+    15px 20px 20px rgba(159, 34, 121, 0.04),
+    inset -10px -10px 15px rgba(175, 38, 102, 0.9);
+    /* filter: drop-shadow(4px 4px 4px black); */
+}
+
+.circ1 {    
+    height: 58px;
+    width: 58px;
+    border-radius: 50%;
+    margin-top: 25px;
+}
+.c1 {    
+    padding-top:19px;
+}
+
+.circ2 {    
+    height: 68px;
+    width: 68px;
+    border-radius: 50%;
+    margin-top: 15px;
+}
+.c2 {    
+    padding-top: 25px;
+}
+
+.circ3 {    
+    height: 78px;
+    width: 78px;
+    margin-top: 6px;
+}
+
+.c3 {    
+    padding-top: 31px;
+}
+/* SIDE CONTAINER --LEFT BODY PAGE */
+
+.side-sticky {  
+  position: fixed;
+  margin-top: 120px;
+  z-index: 4;
+}
+.side-container {  
+    display: flex; 
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(214, 70, 134);
+    box-shadow: 3px 1px 10px  rgba(30, 22, 7, 0.3);
+    width: 260px;
+    height: 85vh ;
+    gap: 13px;
+    margin: 0;
+    padding: 0;
+}
+
+.profile-pic {  
+    margin-top: 44px;
+}
+
+img.profile {  
+    width:180px;
+    height: 180px;
+    border-radius: 50%;
+    box-shadow:-2px 5px 4px rgba(221, 138, 191, 0.3); 
+   
+    filter: drop-shadow(3px -1px 5px rgba(64, 16, 46, 0.2));
+    padding-top: 4px;
+}
+/* Contact me h2 */
+.contact-me {   
+    text-align: center;
+    font-size: 37px;
+    color: antiquewhite;
+    opacity: .6;
+    font-weight: 500;
+}
+
+/* STYLING TO MAKE CONTACT ME 3D */
+
+.contact-me { 
+    filter: drop-shadow(4px 4px 4px rgba(183, 80, 128, 0.5));  
+    text-shadow: 2px 3px 0px rgba(155, 50, 97, 0.5),
+                1px 2px 0px rgba(141, 49, 90, 0.5),
+                -2px -3px 19px rgba(207, 80, 137, 0.5),
+                0.5px 5px 1px rgba(158, 57, 102, 0.5);
+}
+
+.contact-box {  
+    align-self: center;
+}
+.contact-details {  
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 220px;
+}
+
+.emoji {    
+    font-size: 15px;
+}
+
+.emoji-words {  
+    font-size: 17px;  
+    font-weight: 600;
+    color: antiquewhite;
+    opacity: 0.6;
+}
+
+.two2 {   
+    padding-left: 2px;
+   
+}
+
+.emoji-box {
+    
+    margin-top: 40px;
+    padding: 3px;
+    width: 220px;
+    height: 155px;
+    
+    background-color: rgba(214, 70, 134,.04);
+    border-radius: 15px;
+    filter: drop-shadow(4px 4px 4px rgb(79, 22, 49));
+    box-shadow: -15px -15px 15px rgba(251, 116, 177, 0.2), 
+                15px 15px 15px rgba(79, 12, 56, 0.1), 
+                inset -5px -5px 5px rgba(254, 132, 187, 0.2),
+                inset 5px -5px 5px rgba(74, 15, 52, 0.1) 
+}
+
+.svg-social {   
+    margin-top: 30px;
+}
+.social{ 
+    display: flex;  
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 30px;
+    height: 105px;
+    width: 220px;
+    border-radius: 15px;
+    opacity: .8;
+    background-color: rgba(214, 70, 134,.05);
+    filter: drop-shadow(4px 4px 4px rgb(161, 56, 105));
+    box-shadow: -15px -15px 15px rgba(251, 116, 177, 0.2), 
+                15px 15px 15px rgba(79, 12, 56, 0.1), 
+                inset -5px -5px 5px rgba(254, 132, 187, 0.2),
+                inset 5px -5px 5px rgba(74, 15, 52, 0.1)
+}
+
+
+.github { 
+
+    width: 40px;
+}
+
+.linkedin { 
+    width: 40px;
+}
+
+.codewars { 
+    width: 40px;
+}
+
+/*  FOOTER BAR ---- */
+footer {    
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 5;
+    width: 100vw;
+}
+
+/* SCROLLING DIV --- */
+
+.content-container {
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 260px;
+    display: flex;
+    flex-direction: row;
+    z-index: 1;
+    width: 82vw;
+  }
+
+  .scrollable-div {
+    flex: 1;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding: 20px;
+    height: 85vh;
+  }
+
+.bottom-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    background-color: rgb(27, 76, 122);
+    height: 5vh;
+    box-shadow: -1px -6px 9px rgba(0, 0, 0,.2);
+}
+
+.foot { 
+    font-family: 'Lato', sans-serif;
+    letter-spacing: .3mm;
+   
+    margin-top: 9px;
+}
+
+
+.foot-text {  
+    color:#faebd7;
+    font-size:11px;
+    font-weight: 300;  
+   margin-left: 30px;
+   opacity: 1;
+}
+
+.emoji {    
+    font-size: 29px;
+}
+
+.emoji.letter { 
+    font-size: 22px;
+}
+
+
+
