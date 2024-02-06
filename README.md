@@ -40,4 +40,4 @@ To run this project locally, follow these steps:
 
 # Author
 
-    - Jennifer SImond
+Jennifer Simond
