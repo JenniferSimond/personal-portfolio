@@ -38,4 +38,6 @@ To run this project locally, follow these steps:
 
 # Live Demo - You can check out a live video demo of this project [here] (https://vimeo.com/910540312/a6e91af37d?share=copy) .
 
-Author - Jennifer SImond
+# Author
+
+    - Jennifer SImond
