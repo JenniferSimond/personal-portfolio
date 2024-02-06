@@ -18,6 +18,13 @@ h1 {
 }
 
 h2{ 
+    font-family: 'Lilita One', sans-serif;
+    font-size: 46px; 
+    letter-spacing: .1mm;
+    color:#1b4c7a;
+}
+
+h3{ 
     color: #1b4c7a;
     /* font-weight: 900; */
     font-style: normal;
@@ -155,7 +162,7 @@ a {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    background-color: rgb(214, 70, 134);
+    background-color: #d64686;
     box-shadow: 3px 1px 10px  rgba(30, 22, 7, 0.3);
     width: 260px;
     height: 85vh ;
@@ -272,15 +279,6 @@ img.profile {
     width: 40px;
 }
 
-/*  FOOTER BAR ---- */
-footer {    
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    z-index: 5;
-    width: 100vw;
-}
-
 /* SCROLLING DIV --- */
 
 .content-container {
@@ -301,6 +299,59 @@ footer {
     height: 85vh;
   }
 
+  .scrolling-container { 
+    margin: 35px 15px 0px 35px;
+    /* background-color: cadetblue; */
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+   
+    gap: 40px;
+  }
+
+
+.top-scroll {   
+    margin-top: 10px;
+    /* width: 300px; */
+}
+
+.mid-scroll {  
+    align-self: center;
+    /* background-color: aqua; */
+    padding-left: 100px;
+    padding-right: 200px;
+    /* width: 800px; */
+}
+
+.mid-para {  
+    font-size: 18px;
+    letter-spacing: .4mm;
+    font-weight: 500;
+    line-height: 1.7;
+    color: #7B7263;
+
+}
+
+.end-scroll {  
+    align-self: flex-end;
+    line-height: .1;
+    /* width: 320px; */
+}
+
+.part2{
+    color: #d64686;
+    font-size: 58px;
+}
+
+/*  FOOTER BAR ---- */
+footer {    
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 5;
+    width: 100vw;
+}
+
 .bottom-container {
     display: flex;
     flex-direction: row;
@@ -316,7 +367,6 @@ footer {
    
     margin-top: 9px;
 }
-
 
 .foot-text {  
     color:#faebd7;
