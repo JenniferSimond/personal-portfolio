@@ -279,7 +279,7 @@ img.profile {
     width: 40px;
 }
 
-/* SCROLLING DIV --- */
+/* SCROLLING DIV --- HOME PAGE */
 
 .content-container {
     position: absolute;
@@ -301,7 +301,6 @@ img.profile {
 
   .scrolling-container { 
     margin: 35px 15px 0px 35px;
-    /* background-color: cadetblue; */
     display: flex;
     flex-direction: column;
     width: 80vw;
@@ -317,10 +316,8 @@ img.profile {
 
 .mid-scroll {  
     align-self: center;
-    /* background-color: aqua; */
     padding-left: 100px;
     padding-right: 200px;
-    /* width: 800px; */
 }
 
 .mid-para {  
@@ -335,13 +332,116 @@ img.profile {
 .end-scroll {  
     align-self: flex-end;
     line-height: .1;
-    /* width: 320px; */
 }
 
 .part2{
     color: #d64686;
-    font-size: 58px;
+    font-size: 56px;
 }
+
+/* SCROLLING DIV --- PORTFOLLIO PAGE */
+
+
+.proj-scroll {  
+    /* background-color: cadetblue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 750px;
+    margin: 0px 15px 0px 45px;
+}
+
+.proj1, .proj2, .proj3 {  
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+}
+
+.proj2 {
+    margin-left: 250px;
+}
+
+.proj1, .proj3 {
+   margin-left: 0px;
+}
+
+.proj-img {
+    width: 250px;
+    border-radius: 15px;
+}
+
+.proj-para { 
+    width: 400px;
+    align-self: center;
+    font-size: 15px;
+    letter-spacing: .3mm;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #7B7263;
+}
+
+.proj-header { 
+    padding-left: 1300px;
+    line-height: .1;
+    top: 750px;
+    left: 0;   
+    position: fixed;
+}
+
+.proj-h1 {  
+    width: 700px;
+    font-size: 46px; 
+}
+
+.proj-h2 {  
+    color: #d64686;
+    font-size: 56px;
+}
+
+/* SCROLLING DIV --- ABOUT PAGE */
+
+.about-me { 
+    margin-left: 35px ;
+    padding-top: 25px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.about1 {   
+    /* background-color: azure; */
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.gym, .outdoors, .reading { 
+    width: 200px;
+    border-radius: 15px;
+}
+
+.my-facts1, .my-facts2, .my-facts3 {    
+    display: flex;
+}
+
+.aboutpara {    
+    width: 650px;
+    align-self: center;
+
+}
+
+.about2 {  
+    padding-left: 1300px;
+    line-height: .1;
+    top: 750px;
+    left: 0;   
+    position: fixed; 
+    position: fixed;
+}
+
+
 
 /*  FOOTER BAR ---- */
 footer {    
@@ -383,47 +483,4 @@ footer {
 .emoji.letter { 
     font-size: 22px;
 }
-
-/* PORTFOLIO PAGE STYLING */
-
-
-.proj-scroll {  
-    /* background-color: cadetblue; */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 750px;
-    margin: 35px 15px 0px 35px;
-}
-
-.proj1, .proj2, .proj3 {  
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-
-}
-
-.proj1 {
-    margin-left: 100PX;
-}
-
-.proj1, .proj3 {
-   margin-left: 450px;
-}
-
-.proj-img {
-    width: 340px;
-    border-radius: 15px;
-}
-
-.proj-para { 
-    width: 400px;
-    align-self: center;
-    font-size: 15px;
-    letter-spacing: .3mm;
-    font-weight: 500;
-    line-height: 1.5;
-    color: #7B7263;
-}
-
 
