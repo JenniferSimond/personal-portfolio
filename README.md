@@ -4,7 +4,9 @@ My personal portfolio website is a project I created using HTML, CSS, and JavaSc
 
 ![photo](/images/project-pic.png)
 
-# Features - Home Page: The home page provides an introduction to me and my work. It contains a brief bio and contact information.
+# Features
+
+    - Home Page: The home page provides an introduction to me and my work. It contains a brief bio and contact information.
 
     - About Page: The about page showcases my personal interests and hobbies through images and descriptions.
 
