@@ -384,5 +384,46 @@ footer {
     font-size: 22px;
 }
 
+/* PORTFOLIO PAGE STYLING */
+
+
+.proj-scroll {  
+    /* background-color: cadetblue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 750px;
+    margin: 35px 15px 0px 35px;
+}
+
+.proj1, .proj2, .proj3 {  
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+}
+
+.proj1 {
+    margin-left: 100PX;
+}
+
+.proj1, .proj3 {
+   margin-left: 450px;
+}
+
+.proj-img {
+    width: 340px;
+    border-radius: 15px;
+}
+
+.proj-para { 
+    width: 400px;
+    align-self: center;
+    font-size: 15px;
+    letter-spacing: .3mm;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #7B7263;
+}
 
 
