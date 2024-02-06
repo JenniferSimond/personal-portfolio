@@ -32,7 +32,7 @@ To run this project locally, follow these steps:
         - git clone git@github.com:JenniferSimond/personal-portfolio.git
 
     2. Navigate to the project directory:
-        -
+        - cd personal-portfolio
 
     3. Open any of the HTML files (index.html, about.html, portfolio.html) in your preferred web browser.
 
