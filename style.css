@@ -371,6 +371,12 @@ img.profile {
 .proj-img {
     width: 300px;
     border-radius: 20px;
+
+    filter: drop-shadow(4px 4px 4px rgb(196, 180, 148));
+    box-shadow: -15px -15px 15px rgba(247, 217, 166, 0.2), 
+                15px 15px 15px rgba(214, 180, 149, 0.1), 
+                inset -5px -5px 5px rgba(254, 213, 132, 0.2),
+                inset 5px -5px 5px rgba(134, 124, 105, 0.1);
 }
 
 .proj-para { 
@@ -402,6 +408,9 @@ img.profile {
     font-size: 56px;
 }
 
+.proj-snapshot {    
+    opacity: 1;
+}
 /* SCROLLING DIV --- ABOUT PAGE */
 
 .about-me { 
