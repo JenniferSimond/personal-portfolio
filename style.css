@@ -315,6 +315,7 @@ img.profile {
 }
 
 .mid-scroll {  
+    
     align-self: center;
     padding-left: 100px;
     padding-right: 200px;
@@ -426,11 +427,17 @@ img.profile {
 
 .my-facts1, .my-facts2, .my-facts3 {    
     display: flex;
+    
 }
 
 .aboutpara {    
+
+    flex: 1;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    
     padding-left: 20px;
-    width: 650px;
+    max-width: 650px;
     align-self: center;
     font-size: 18px;
     letter-spacing: .4mm;
@@ -491,3 +498,6 @@ footer {
     font-size: 22px;
 }
 
+img {   
+    flex-shrink: 0;
+}
