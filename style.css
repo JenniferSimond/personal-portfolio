@@ -348,13 +348,14 @@ img.profile {
     flex-direction: column;
     justify-content: space-around;
     height: 750px;
-    margin: 0px 15px 0px 45px;
+    margin: 0px 15px 0px 50px;
 }
 
 .proj1, .proj2, .proj3 {  
     display: flex;
     flex-direction: row;
     gap: 10px;
+
 
 }
 
@@ -367,11 +368,12 @@ img.profile {
 }
 
 .proj-img {
-    width: 250px;
-    border-radius: 15px;
+    width: 300px;
+    border-radius: 20px;
 }
 
 .proj-para { 
+    padding-left: 10px;
     width: 400px;
     align-self: center;
     font-size: 15px;
@@ -427,9 +429,14 @@ img.profile {
 }
 
 .aboutpara {    
+    padding-left: 20px;
     width: 650px;
     align-self: center;
-
+    font-size: 18px;
+    letter-spacing: .4mm;
+    font-weight: 500;
+    line-height: 1.7;
+    color: #7B7263;
 }
 
 .about2 {  
