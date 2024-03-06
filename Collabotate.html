@@ -89,18 +89,18 @@
 <div class="content-container">
     <div class="scrolling-div">
         <main class="scrolling-container">
-          <h2>Scedule a Project Consulation</h2>
-          <form action="">
-            <label class="topLabel" for="firstName">First Name</label>
-            <input class="userInput" type="text" name="firstName" id="firstName">
+          <h2>Schedule Project Consultation</h2>
+          <form id="form">
+            <label for="name">First Name</label>
+            <input type="text" id="name" name="name" >
           
-            <label for="lastName">Last Name</label>
-            <input type="text" name="lastName" id="lastName">
+            <label for="Email">Email</label>
+            <input type="email" id="email" name="email" >
            
-            <label for="projectSummary">Tell me about your project!</label>
-            <textarea name="projectSummary" id="projectSummary" cols="1" rows="1"></textarea>
+            <label class="message-label" for="message">Tell me about your project!</label>
+            <textarea id="message" name="message" placeholder="Tell me how I can help..."></textarea>
 
-            <input type="submit">
+            <input class="submit-button" id="submit" type="submit" >
 
           </form>
         </main>

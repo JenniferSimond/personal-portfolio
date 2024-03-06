@@ -3,7 +3,6 @@ body {
     padding: 0;
     background-color: antiquewhite;
     font-family: 'Raleway', sans-serif;
-    /* font-family: 'Lato', sans-serif; */
 }
 
 h1 {    
@@ -26,7 +25,6 @@ h2{
 
 h3{ 
     color: #1b4c7a;
-    /* font-weight: 900; */
     font-style: normal;
     letter-spacing: .5mm;
     opacity: .9;
@@ -109,7 +107,6 @@ a {
 /* NAV CIRCLE STYLING */
 .color {    
     background-color: rgb(214, 70, 134);
-    /* box-shadow: 5px 3px 9px #0f2e49; */
     border-radius: 50%;
     opacity: 1;
 
@@ -118,7 +115,6 @@ a {
     15px 25px 10px rgba(195, 36, 137, 0.04),
     15px 20px 20px rgba(159, 34, 121, 0.04),
     inset -10px -10px 15px rgba(175, 38, 102, 0.9);
-    /* filter: drop-shadow(4px 4px 4px black); */
 }
 
 .circ1 {    
@@ -266,18 +262,10 @@ img.profile {
 }
 
 
-.github { 
-
+.github, .linkedin, .codewars { 
     width: 40px;
 }
 
-.linkedin { 
-    width: 40px;
-}
-
-.codewars { 
-    width: 40px;
-}
 
 /* SCROLLING DIV --- HOME PAGE */
 
@@ -304,18 +292,15 @@ img.profile {
     display: flex;
     flex-direction: column;
     width: 80vw;
-   
     gap: 40px;
   }
 
 
 .top-scroll {   
     margin-top: 10px;
-    /* width: 300px; */
 }
 
-.mid-scroll {  
-    
+.mid-scroll {    
     align-self: center;
     padding-left: 100px;
     padding-right: 200px;
@@ -327,7 +312,6 @@ img.profile {
     font-weight: 500;
     line-height: 1.7;
     color: #7B7263;
-
 }
 
 .end-scroll {  
@@ -343,7 +327,6 @@ img.profile {
 /* SCROLLING DIV --- PORTFOLLIO PAGE */
 
 .proj-scroll {  
-    /* background-color: cadetblue; */
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -355,8 +338,6 @@ img.profile {
     display: flex;
     flex-direction: row;
     gap: 10px;
-
-
 }
 
 .proj2 {
@@ -422,7 +403,6 @@ img.profile {
 }
 
 .about1 {   
-    /* background-color: azure; */
     height: 750px;
     display: flex;
     flex-direction: column;
@@ -462,8 +442,6 @@ img.profile {
     position: fixed; 
     position: fixed;
 }
-
-
 
 /*  FOOTER BAR ---- */
 footer {    
@@ -536,6 +514,135 @@ img {
 .collaborate-button:hover {
     background-color: antiquewhite;
     color: #d64686;
+}
 
+label {    
+    display: block;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #1b4c7a;
+}
+
+.submit-button{  
+    display: block;
+    margin-top: 20px;
+}
+
+main>h2 {   
+    text-align: left;
+    font-size: 36px;
+    margin-left: 90px;
+}
+
+form {  
+    margin-left: 90px;
+
+}
+
+input[type=text], input[type=email], textarea { 
+    margin-bottom: 30px ;
+    background-color: rgba(214, 70, 134,0.8);
+    color: antiquewhite;
+    font-size: 19px;
+    border-radius: 5px;
+    border: 2px, solid #1b4c7a;
+    font-family: monospace;
+    padding: 10px;
+    width: 15em;
+}
+
+textarea {
+    width: 30em;
+    height: 10em;
+    margin-bottom: 10px;
+}
+
+::placeholder{  
+    color: antiquewhite;
+    font-size: 19px;
+}
+
+/* Base adjustments for full width - Apply these if you want them default for all sizes */
+.content-container {
+    position: relative; /* Ensure it's positioned correctly */
+    width: 100%; /* Full width */
+    margin-top: 0; /* Remove additional margin */
+}
+
+/* Media Query for Tablets (e.g., iPads) */
+@media (max-width: 1024px) {
+    /* Hide the side container completely */
+    .side-sticky, .side-container {
+        display: none;
+    }
+
+    /* Extend top navigation bar to full width */
+    .top-container {
+        width: 100%;
+        justify-content: space-between; /* Adjust based on your design preference */
+    }
+
+    /* Adjust navigation links for better appearance */
+    .nav-box {
+        width: 100%;
+        justify-content: center; /* Center navigation links */
+    }
+
+    ul.nav_links {
+        justify-content: center; /* Center the links if they are not already */
+        padding: 0; /* Remove any default padding */
+        margin: 0 auto; /* Center the menu items */
+    }
+
+    /* Ensure 'Contact Me' section is full-width and looks better */
+    .contact-box {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around; /* Adjust spacing around contact items */
+        width: 100%;
+        box-sizing: border-box; /* Ensure padding and border are included in width */
+        padding: 10px; /* Add some padding */
+    }
+
+    /* Adjust individual contact items for a cleaner look */
+    .emoji-box {
+        display: flex;
+        justify-content: center; /* Center the content */
+        width: auto; /* Adjust width as needed */
+        margin: 0; /* Adjust margin as needed */
+    }
+}
+
+/* Media Query for Phones */
+@media (max-width: 768px) {
+    /* Apply similar adjustments as for tablets, but cater to smaller screens */
+    .side-sticky, .side-container {
+        display: none;
+    }
+
+    .top-container {
+        width: 100%;
+        flex-direction: column; /* Stack elements vertically for smaller screens */
+    }
+
+    .nav-box, ul.nav_links {
+        width: 100%;
+        justify-content: center;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .contact-box {
+        flex-direction: column; /* Stack contact info vertically for smaller screens */
+        align-items: center; /* Align items in the center */
+        padding: 10px;
+    }
+
+    .emoji-box {
+        flex-direction: row; /* Keep emoji info in a row but adjust for best fit */
+        justify-content: center;
+        margin: 5px 0; /* Adjust margin for spacing */
+    }
 }
 
